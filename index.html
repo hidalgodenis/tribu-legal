@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Tribu</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       max-width: 850px;
       margin: 0 auto;
       padding: 40px 20px;
@@ -15,7 +17,7 @@
       background: #f7f9fc;
     }
 
-    h1 {
+    h1, h2 {
       color: #0a63c9;
     }
 
@@ -24,11 +26,22 @@
       text-decoration: none;
     }
 
+    a:hover {
+      text-decoration: underline;
+    }
+
     .card {
-      background: white;
+      background: #ffffff;
       padding: 24px;
       border-radius: 16px;
       margin-top: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #666666;
     }
   </style>
 </head>
@@ -39,33 +52,57 @@
 
 <p>
 Tribu es una aplicación orientada al seguimiento deportivo,
-registro de marcas de fuerza y evolución de atletas.
+registro de marcas de fuerza, récords personales y evolución de atletas.
+</p>
+
+<p>
+Los atletas pueden crear su propia cuenta, consultar su información,
+registrar marcas de 1RM y seguir su progreso.
 </p>
 
 <div class="card">
+
   <h2>Información legal</h2>
 
   <p>
-    <a href="./privacy/">Política de privacidad</a>
+    <a href="./privacy/">
+      Política de privacidad
+    </a>
   </p>
 
   <p>
-    <a href="./terms/">Términos de uso</a>
+    <a href="./terms/">
+      Términos de uso
+    </a>
   </p>
 
   <p>
-    <a href="./delete-account/">Eliminación de cuenta</a>
+    <a href="./delete-account/">
+      Eliminación de cuenta
+    </a>
   </p>
+
 </div>
 
 <div class="card">
-  <h2>Contacto</h2>
+
+  <h2>Soporte</h2>
 
   <p>
-    Soporte:
+    Para consultas relacionadas con Tribu:
+  </p>
+
+  <p>
     <a href="mailto:denisrhidalgo@gmail.com">
       denisrhidalgo@gmail.com
     </a>
+  </p>
+
+</div>
+
+<div class="footer">
+  <p>
+    Tribu · Aplicación de seguimiento deportivo
   </p>
 </div>
 
